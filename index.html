@@ -3,44 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Age of History 2 - PRO Senaryolar</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<title>Age of History 2 - PRO Senaryolar | 10 Senaryo</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a0a0f;color:#fff;font-family:'Inter',sans-serif}
-.hero{min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;background:radial-gradient(ellipse at top,#1a1a3a 0%,#0a0a0f 60%)}
-.badge{display:inline-block;background:linear-gradient(90deg,#ff3b30,#ff9500);padding:6px 16px;border-radius:100px;font-size:12px;letter-spacing:2px;font-weight:800;margin-bottom:20px}
-.hero h1{font-family:'Orbitron';font-size:clamp(36px,7vw,68px);font-weight:900;line-height:.9;text-transform:uppercase}
+*{margin:0;padding:0;box-sizing:border-box}body{background:#080a12;color:#fff;font-family:'Inter',sans-serif}
+.hero{min-height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px;background:radial-gradient(ellipse at top,#1e1e4a,#080a12 65%)}
+.badge{background:linear-gradient(90deg,#ff3b30,#ffcc00);padding:8px 20px;border-radius:100px;font-size:12px;letter-spacing:2px;font-weight:900;display:inline-block;margin-bottom:16px}
+.hero h1{font-family:'Orbitron';font-size:clamp(32px,6vw,66px);font-weight:900;line-height:.9}
 .hero h1 span{background:linear-gradient(90deg,#ff3b30,#ffcc00);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero p{margin:20px auto 0;max-width:600px;color:#9aa0b6;font-size:18px}
-.grid{max-width:1200px;margin:0 auto;padding:40px 20px 80px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
-.card{background:linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.03));border:1px solid rgba(255,255,255,0.1);border-radius:20px;overflow:hidden;transition:.3s}
-.card:hover{transform:translateY(-6px);border-color:#ff3b30}
-.card-thumb{height:150px;display:flex;align-items:center;justify-content:center;font-family:'Orbitron';font-size:56px;background:radial-gradient(circle at 30% 20%,#2a2a5a,#0f0f1a)}
-.card-body{padding:18px}
-.card-title{font-weight:800;font-size:18px}
-.card-desc{color:#9aa0b6;font-size:13px;margin:6px 0 14px;line-height:1.5}
-.btn{display:block;width:100%;padding:11px;border-radius:12px;font-weight:800;font-size:13px;text-align:center;text-decoration:none;background:#fff;color:#000}
-.btn:hover{background:#ff3b30;color:#fff}
-.footer{text-align:center;padding:40px;color:#5a5f75;font-size:13px;border-top:1px solid rgba(255,255,255,0.06)}
+.hero p{color:#9aa0b6;margin:16px auto 0;max-width:700px}
+.wrap{max-width:1280px;margin:0 auto;padding:20px}.season{font-family:'Orbitron';font-size:26px;font-weight:900;margin:70px 0 10px}
+.devam{background:#ffcc00;color:#000;text-align:center;font-weight:900;letter-spacing:4px;padding:12px;border-radius:12px;margin:15px 0;font-family:'Orbitron'}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.1);border-radius:20px;overflow:hidden;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:#ff3b30}.card.pro{border-color:#ffcc00;box-shadow:0 0 25px rgba(255,204,0,.15)}
+.thumb{height:140px;display:flex;align-items:center;justify-content:center;font-size:52px;background:radial-gradient(circle at 30% 20%,#2a2a5a,#0f0f1a)}
+.thumb.pro{background:radial-gradient(circle at 30% 20%,#3a2e12,#1a1505)}
+.body{padding:16px}.title{font-weight:800;font-size:17px}.desc{color:#9aa0b6;font-size:12.5px;line-height:1.5;margin:6px 0 10px;min-height:80px}
+.vs{display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:8px 10px;margin:8px 0;font-size:12px}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.tag{font-size:10px;padding:3px 9px;border-radius:100px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1)}.tag.r{background:rgba(255,59,48,.18);color:#ff8a80}
+.btns{display:flex;gap:8px}.btn{flex:1;padding:10px;border-radius:10px;font-weight:800;font-size:12px;text-align:center;text-decoration:none}.btn-p{background:#fff;color:#000}.btn-p:hover{background:#ff3b30;color:#fff}
+.warn{background:rgba(255,204,0,.1);border:1px solid rgba(255,204,0,.3);color:#ffcc66;padding:8px 10px;border-radius:8px;font-size:11px;margin:8px 0}.footer{text-align:center;padding:40px;color:#5a5f75;font-size:12px;border-top:1px solid rgba(255,255,255,.06);margin-top:60px}
 </style>
 </head>
 <body>
-<div class="hero">
-<div>
-<div class="badge">⚡ PRO EDITION • 2026</div>
-<h1>AGE OF HISTORY<br><span>SENARYOLAR</span></h1>
-<p>En kaliteli Age of History 2 senaryoları - Türkçe destekli, tek tıkla indir. by userahmet178</p>
-</div>
-</div>
+<div class="hero"><div><div class="badge">⚡ PRO EDITION • 10/10 TAMAMLANDI</div><h1>AGE OF HISTORY<br><span>SENARYOLAR</span></h1><p>1. Sezon 1390-1566 (7) + 2. Sezon Professional 1570-1683 (3) • Tüm senaryolar tarihî kaynaklara uygun</p></div></div>
+
+<div class="wrap">
+<div class="season">1. SEZON (1390-1566) • DEVAM EDECEK...</div>
+<div class="devam">DEVAM EDECEK... DEVAM EDECEK... DEVAM EDECEK...</div>
 <div class="grid">
-<div class="card"><div class="card-thumb">🌍</div><div class="card-body"><div class="card-title">Modern Dünya 2026</div><div class="card-desc">Güncel 2026 sınırları, 250+ ülke, NATO, BRICS.</div><a class="btn" href="#">İNDİR</a></div></div>
-<div class="card"><div class="card-thumb">⚔️</div><div class="card-body"><div class="card-title">World War 2 ULTIMATE</div><div class="card-desc">En detaylı WW2, 1939, eventler ve liderler.</div><a class="btn" href="#">İNDİR</a></div></div>
-<div class="card"><div class="card-thumb">🇹🇷</div><div class="card-body"><div class="card-title">Türkiye Kurtuluş Savaşı</div><div class="card-desc">1919-1923 Milli Mücadele senaryosu.</div><a class="btn" href="#">İNDİR</a></div></div>
-<div class="card"><div class="card-thumb">☪️</div><div class="card-body"><div class="card-title">Osmanlı 1453</div><div class="card-desc">Fatih Sultan Mehmet, İstanbul'un fethi.</div><a class="btn" href="#">İNDİR</a></div></div>
-<div class="card"><div class="card-thumb">🐺</div><div class="card-body"><div class="card-title">Büyük Turan Birliği</div><div class="card-desc">Orta Asya'dan Balkanlara Türk birliği.</div><a class="btn" href="#">İNDİR</a></div></div>
-<div class="card"><div class="card-thumb">🧟</div><div class="card-body"><div class="card-title">Zombi Kıyameti</div><div class="card-desc">Dünya zombi istilasında, hayatta kal!</div><a class="btn" href="#">İNDİR</a></div></div>
+
+<div class="card"><div class="thumb">⚔️</div><div class="body"><div class="title">1390 - Osmanlı Yükselişi</div><div class="desc">1390 yılı, Osmanlı'nın yükseliş döneminin en önemli yıllarından biridir. Sultan I. Bayezid Balkanlar'daki fetihlerini sürdürerek Osmanlı'nın Avrupa'daki gücünü artırmıştır. Anadolu'da beylikleri birleştirme politikası hız kazanmıştır.</div><div class="vs"><b style="color:#ff4d4d">BAYEZID - Yıldırım</b><span>VS</span><b style="color:#6bb6ff">TIMUR - Cihangir</b></div><div class="meta"><span class="tag r">POPÜLER</span><span class="tag">1390</span></div><div class="warn">⚠️ Oynamak için TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3775785738" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">🏰</div><div class="body"><div class="title">1422 - II. Murad Dönemi</div><div class="desc">1422 yılı II. Murad'ın ilk yıllarına denk gelir. Osmanlı hem Anadolu'da hem Rumeli'de otoritesini yeniden sağlamaya çalışmaktadır. Bizans son direniş yıllarını yaşamaktadır. Balkanlar'da tarihî atmosfer.</div><div class="meta"><span class="tag">1422</span><span class="tag">II. Murad</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776214761" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">☪️</div><div class="body"><div class="title">1453 - İstanbul'un Fethi</div><div class="desc">1453 dünya tarihinin dönüm noktasıdır. Fatih Sultan Mehmed'in İstanbul'u fethetmesiyle Orta Çağ sona ermiş, Yeni Çağ başlamıştır. Bizans tarih sahnesinden silinmiştir. Tarihî sınırlara uygun.</div><div class="meta"><span class="tag r">EFSANE</span><span class="tag">Fetih</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776216817" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">👑</div><div class="body"><div class="title">1482 - II. Bayezid & Cem Sultan</div><div class="desc">1482 yılı II. Bayezid döneminin başlangıcıdır. Osmanlı doğuda ve batıda güçlü hâle gelirken Akdeniz'de Venedik ile mücadele sürmektedir. Anadolu'da otorite güçlenmektedir.</div><div class="meta"><span class="tag">1482</span><span class="tag">Taht Kavgası</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776218033" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">🕌</div><div class="body"><div class="title">1512 - Yavuz Sultan Selim</div><div class="desc">1512 yılı yeni bir dönemin başlangıcıdır. Yavuz tahta çıkmıştır. Doğuda Safevi büyük tehdit, güneyde Memlük en güçlü rakip. Avrupa'da güç mücadelesi devam etmektedir.</div><div class="meta"><span class="tag">1512</span><span class="tag">Yavuz</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776219678" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">👑</div><div class="body"><div class="title">1520 - Kanuni Sultan Süleyman</div><div class="desc">1520 yılı Kanuni'nin tahta çıktığı yıldır. Osmanlı dünyanın en güçlü devletlerinden biri hâline gelmiştir. Habsburg yükselirken Safevi varlığını sürdürmektedir. Fetihlerin temeli atılıyor.</div><div class="meta"><span class="tag r">ALTIN ÇAĞ</span><span class="tag">1520</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776220871" target="_blank">Steam'de Aç</a></div></div></div>
+
+<div class="card"><div class="thumb">🏹</div><div class="body"><div class="title">1566 - Zigetvar Kuşatması (Sezon 1 Final)</div><div class="desc">1566 yılı Kanuni'nin son seferine sahne olmuştur. Zigetvar Kuşatması sırasında vefat etmiş, ardından II. Selim tahta çıkmıştır. Bir dönemin kapanıp yeni bir dönemin başlaması.</div><div class="meta"><span class="tag r">SEZON FİNALİ</span><span class="tag">1566</span></div><div class="warn">⚠️ TÜMÜNE ABONE OL</div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776221844" target="_blank">Steam'de Aç</a></div></div></div>
+
 </div>
-<div class="footer">Made by userahmet178-a11y • Age of History 2 Türkiye</div>
+
+<div class="season" style="color:#ffcc00;margin-top:80px">2. SEZON PROFESSIONAL • FOTOĞRAFLI PREMIUM</div>
+<div style="height:2px;background:linear-gradient(90deg,#ffcc00,transparent);margin:10px 0 20px"></div>
+<div class="grid">
+
+<div class="card pro"><div class="thumb pro">🏝️</div><div class="body"><div class="title">1570 - II. Selim / Kıbrıs Seferi</div><div class="desc">1570 Kıbrıs Seferi, Lala Mustafa Paşa komutasında Akdeniz'de Osmanlı gücü. Venedik'e karşı büyük sefer, Akdeniz mavisi Professional tasarım.</div><div class="meta"><span class="tag r">PRO</span><span class="tag">Kıbrıs</span></div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3776443445" target="_blank">Steam'de Gör ★</a></div></div></div>
+
+<div class="card pro"><div class="thumb pro">🏰</div><div class="body"><div class="title">1596 - Eğri Seferi / III. Mehmed</div><div class="desc">1596 Eğri Kalesi kuşatması ve Haçova Meydan Muharebesi. Avusturya vs Osmanlı, Osmanlı'nın Orta Avrupa'daki son büyük zaferlerinden biri.</div><div class="meta"><span class="tag r">PRO</span><span class="tag">Haçova</span></div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3781076954" target="_blank">Steam'de Gör ★</a></div></div></div>
+
+<div class="card pro"><div class="thumb pro">⚔️</div><div class="body"><div class="title">1683 - II. Viyana Kuşatması</div><div class="desc">1683 Merzifonlu Kara Mustafa Paşa vs Jan Sobieski. Viyana surları, Kahlenberg, Osmanlı'nın Avrupa'daki son büyük seferi. Zirve senaryo!</div><div class="meta"><span class="tag r">PRO</span><span class="tag">1683</span></div><div class="btns"><a class="btn btn-p" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3783896414" target="_blank">Steam'de Gör ★</a></div></div></div>
+
+</div>
+</div>
+
+<div class="footer">Made by userahmet178-a11y • ozerimparatorlugu@gmail.com • 10 Senaryo • 10 Aktif Steam Link<br>Age of History II Türkiye • GitHub Pages<br><br><span style="opacity:.5">Lukas Jakowski'nin Age of History II oyununa hayran yapımıdır.</span></div>
 </body>
-</html>  
+</html>
