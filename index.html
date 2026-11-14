@@ -28,16 +28,29 @@
 </head>
 <body>
 <style>
-.menu { display: flex; justify-content: center; gap: 25px; background: #111; padding: 16px; border-bottom: 2px solid gold; position: sticky; top: 0; z-index: 100; }
-.menu a { color: gold; text-decoration: none; font-weight: bold; font-size: 15px; }
-.menu a:hover { color: white; }
+.topbar { display: flex; justify-content: space-between; align-items: center; background: #111; padding: 14px 18px; border-bottom: 2px solid gold; position: sticky; top: 0; z-index: 100; }
+.logo { color: gold; font-weight: bold; font-size: 15px; }
+.hamburger { background: none; border: none; cursor: pointer; padding: 5px; }
+.hamburger span { display: block; width: 30px; height: 4px; background: gold; margin: 5px 0; border-radius: 2px; }
+.menu-links { display: none; flex-direction: column; background: #111; border-bottom: 2px solid gold; text-align: center; }
+.menu-links.open { display: flex; }
+.menu-links a { color: gold; text-decoration: none; font-weight: bold; padding: 14px; border-top: 1px solid #333; }
+.menu-links a:hover { color: white; background: #222; }
 </style>
-<nav class="menu">
+<div class="topbar">
+<div class="logo">AGE OF HISTORY</div>
+<button class="hamburger" onclick="document.getElementById('menuLinks').classList.toggle('open')">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+<div id="menuLinks" class="menu-links">
 <a href="#sezon1">1. SEZON</a>
 <a href="#sezon2">2. SEZON</a>
-<a href="#workshop">WORKSHOP</a>
+<a href="BURAYA_STEAM_WORKSHOP_LINKINI_YAZ" target="_blank">WORKSHOP</a>
 <a href="#">ANASAYFA</a>
-</nav>
+</div>
 <div class="hero"><div><div class="badge"></div><h1>AGE OF HISTORY<br><span>SENARYOLAR</span></h1><p>1. Sezon 1390-1566 (7) + 2. Sezon Professional 1570-1683 (3) • Tüm senaryolar tarihî kaynaklara uygun</p></div></div>
 
 <div class="wrap">
