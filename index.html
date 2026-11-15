@@ -24,6 +24,14 @@
 .meta{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.tag{font-size:10px;padding:3px 9px;border-radius:100px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1)}.tag.r{background:rgba(255,59,48,.18);color:#ff8a80}
 .btns{display:flex;gap:8px}.btn{flex:1;padding:10px;border-radius:10px;font-weight:800;font-size:12px;text-align:center;text-decoration:none}.btn-p{background:#fff;color:#000}.btn-p:hover{background:#ff3b30;color:#fff}
 .warn{background:rgba(255,204,0,.1);border:1px solid rgba(255,204,0,.3);color:#ffcc66;padding:8px 10px;border-radius:8px;font-size:11px;margin:8px 0}.footer{text-align:center;padding:40px;color:#5a5f75;font-size:12px;border-top:1px solid rgba(255,255,255,.06);margin-top:60px}
+  @media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hero h1 {
+    font-size: 28px !important;
+  }
+}
 </style>
 </head>
 <body>
@@ -36,6 +44,18 @@
 .menu-links.open { display: flex; }
 .menu-links a { color: gold; text-decoration: none; font-weight: bold; padding: 14px; border-top: 1px solid #333; }
 .menu-links a:hover { color: white; background: #222; }
+	.card {
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
+  border-color: white;
+}
+.btn:hover {
+  background: gold;
+  color: black;
+}
 </style>
 <div class="topbar">
 <div class="logo">AGE OF HISTORY</div>
@@ -83,6 +103,8 @@
 </div>
 </div>
 
-
+<footer style="text-align:center; padding:20px; color:gold; border-top:2px solid gold; margin-top:40px;">
+Yapan: AHMET SULTAN - AGE OF HİSTORY SENARYOLARI | Steam Workshop'ta Beni Takip Et
+</footer>
 </body>
 </html>
